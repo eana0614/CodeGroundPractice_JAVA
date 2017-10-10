@@ -8,3 +8,4 @@ This repository is contain practice problem of CodeGround site.
  
 
  Problem 1. Choose a number 
+ 	>> A XOR A XOR A XOR = A
