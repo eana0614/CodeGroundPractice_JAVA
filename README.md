@@ -7,8 +7,9 @@ This repository is contain practice problem of CodeGround site.
  And, it is updated when i start solving problem.
  
 
- Problem 1. Choose a number 
+ Problem 1. Choose a number ( O )
  	>> A XOR A XOR A XOR = A
  	
 
- Problem 2. Favorite Number
+ Problem 2. Favorite Number ( ? )
+ 	>> I don't know what to fix...

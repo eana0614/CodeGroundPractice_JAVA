@@ -1,5 +1,6 @@
 package Problem2;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /*
@@ -26,8 +27,43 @@ public class Solution {
 		
 		for(int test_case = 0; test_case < T; test_case++) {
 			
+			Answer = 0;
+			
+			int N = sc.nextInt();
+			
+			int []participant = new int[N];
+			
+			for(int i=0; i<N; i++) {
+				participant[i] = sc.nextInt();
+			}
+			
+			//오름차순 정렬
+			Arrays.sort(participant);
+			
+			Answer = findFavoriteNumber(participant, N);
+			
+			System.out.println("Case #"+(test_case+1));
+			System.out.println(Answer);
 		}
 		
+	}
+
+	private static int findFavoriteNumber(int[] participant, int size) {
+		
+		int count = size;
+		int max;
+		
+		for(int i=0; i<size-2; i++) {
+			
+			max = participant[i] + size;
+			
+			if(max < participant[size-1] + 1 || max < participant[i+1] + size - 1){
+				count--;
+				break;
+			}
+		}
+		
+		return count;
 	}
 
 }
