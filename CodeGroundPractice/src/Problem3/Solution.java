@@ -1,5 +1,7 @@
 package Problem3;
 
+import java.util.Scanner;
+
 /*
  * Problem 3. Test Study
  * 
@@ -14,11 +16,26 @@ package Problem3;
  * All test case Num : 1<= T <= 20
  * All run time Limit : <= 1s (Java : <=2s)
  */
+
 public class Solution {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	static int Answer;
 
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int T = sc.nextInt();
+		for (int test_case = 0; test_case < T; test_case++) {
+
+			int N = sc.nextInt();
+			int K = sc.nextInt();
+			
+			
+			
+			System.out.println("Case #" + (test_case + 1));
+			System.out.println(Answer);
+		}
 	}
 
 }
