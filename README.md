@@ -16,3 +16,6 @@ This repository is contain practice problem of CodeGround site.
  			the highest point among these points is the minimum score required to win.
  	   So, all participant point + high point value(A) compare the minimum score required to win(B).
  	   		And if A >= B, this participant can win.
+ 	   		
+ 	   		
+ Problem 3. Test Study
