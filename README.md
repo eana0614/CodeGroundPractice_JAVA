@@ -11,5 +11,8 @@ This repository is contain practice problem of CodeGround site.
  	>> A XOR A XOR A XOR = A
  	
 
- Problem 2. Favorite Number ( ? )
- 	>> I don't know what to fix...
+ Problem 2. Favorite Number ( O )
+ 	>> When participants get high points in the order of low points,
+ 			the highest point among these points is the minimum score required to win.
+ 	   So, all participant point + high point value(A) compare the minimum score required to win(B).
+ 	   		And if A >= B, this participant can win.
