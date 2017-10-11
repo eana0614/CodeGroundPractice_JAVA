@@ -13,6 +13,9 @@ import java.util.Scanner;
  * Input : the score before the last round points.
  * Output : print the number of people who are likely to win.
  * 
+ * All test case Num : 1<= T <= 5
+ * All run time Limit : <= 1s (Java : <=2s)
+ * 
  */
 
 public class Solution {
