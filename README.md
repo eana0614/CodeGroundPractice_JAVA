@@ -18,4 +18,7 @@ This repository is contain practice problem of CodeGround site.
  	   		And if A >= B, this participant can win.
  	   		
  	   		
- Problem 3. Test Study
+ Problem 3. Test Study ( O ) ( Very easy )
+ 	>> This problem simple. Sort scores ascending or descending.
+ 	   type ascending = add the K number of elements from the end
+ 	   type descending = add the K number of elements from the first
