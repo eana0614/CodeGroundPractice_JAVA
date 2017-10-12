@@ -27,3 +27,12 @@ This repository is contain practice problem of CodeGround site.
  >> This problem simple. Sort scores ascending or descending.
  	   type ascending = add the K number of elements from the end
  	   type descending = add the K number of elements from the first
+
+ 	   
+ 	   
+ Problem 4.  Dart Game ( O )
+
+ >> I get angle use the arctan and get index using round.
+ 
+ 
+ 
